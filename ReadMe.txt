@@ -25,4 +25,4 @@ Project document - The "Project document" directory contains the files to the pr
 
 ServerSoftware - The "ServerSoftware"  directory contains the executable file (jar) of the server software.
 
-* The project demo you can see in the following link : https://github.com/smilk12/AA-UAV
+* The project demo you can see in the following link : http://www.youtube.com/watch?v=Mn2d4dhgmmE

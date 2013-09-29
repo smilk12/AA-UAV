@@ -1,0 +1,353 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+Design by Shmulik Melamed & Lital Motola
+http://www.AA-UAV.juplo.com
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>AA-UAV By Shmulik Melamed & Lital Motola</title>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css'>
+<link href="styles/style.css" rel="stylesheet" type="text/css" media="screen" />
+
+<!-- Google Map -->
+<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+<meta charset="utf-8">
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
+<script src="javaScripts/mapScript.js"></script>
+
+<!-- Anchor Slide -->
+<script src="javaScripts/anchor/jquery.js" type="text/javascript"></script>
+<script src="javaScripts/anchor/jquery.anchor.js" type="text/javascript"></script>
+
+</head>
+<body>
+<a name="home" id="home"></a>
+<div id="wrapper">
+	<div id="header-wrapper">
+		<div id="header" class="container">
+<!--==================================== Logo =========================================-->
+			<div id="logo">
+				<h1><a href="#">AA-UAV</a></h1>
+				<a href="#">Android ArDrone - Unmanned aerial vehicle</a>
+			</div>
+<!--===================================================================================-->
+
+<!--==================================== Menu =========================================-->
+			<div id="menu">
+				<ul>
+					<li class="current_page_item"><a href="#">Homepage</a></li>
+					<li><a href="#architecture" rel="" id="anchor1" class="anchorLink">Architecture</a></li>
+					<li><a href="#Design" rel="" id="anchor1" class="anchorLink">Design</a></li>
+					<li><a href="#Implementation" rel="" id="anchor1" class="anchorLink">Implementation</a></li>
+					<li><a href="#futurework" rel="" id="anchor1" class="anchorLink">Future Work</a></li>
+					<li><a href="#map" rel="" id="anchor1" class="anchorLink">Map</a></li>
+					<li><a href="#aboutus" rel="" id="anchor1" class="anchorLink">About</a></li>
+					<li><a href="#contact" rel="" id="anchor1" class="anchorLink">Contact</a></li>
+				</ul>
+			</div>
+<!--===================================================================================-->
+		</div>
+
+<!--=================================== Banner ========================================-->
+		<div id="banner">
+			<div class="content"><img src="images/logo2.png" width="1000" height="400" alt="" /></div>
+		</div>
+<!--===================================================================================-->
+	</div>
+	<!-- end #header -->
+<!--============================= Featured-Content ====================================-->
+	<div id="featured-content">
+		<div id="column1">
+			<h2>Concept</h2>
+			<p><img src="images/conceptbanner.jpg" width="300" height="150" alt="" /></p>
+			<p>The project concept is to increase the flight range of the AR-Drone so he can fly <strong>higher</strong> and <strong>farther</strong>. <br>
+			<p class="button"><a href="#concept" rel="" id="anchor1" class="anchorLink">Read More</a></p>
+		</div>
+		<div id="column2">
+			<h2>Goals</h2>
+			<p><img src="images/goalsbanner.jpg" width="300" height="150" alt="" /></p>
+			<p>The project goals is to transform the AR-Drone into a <strong>UAV</strong> that can be controlled by the user application.<br>
+			<p class="button"><a href="#goals" rel="" id="anchor1" class="anchorLink">Read More</a></p>
+		</div>
+		<div id="column3">
+			<h2>Demo</h2>
+			<p><img src="images/demo.png" width="300" height="150" alt="" /></p>
+			<p>The project demo presents us <strong>human pilot</strong>, <strong>auto pilot</strong> and <strong>real time information</strong> about the flight.</p>
+			<p class="button"><a href="#demo" rel="" id="anchor1" class="anchorLink">Read More</a></p>
+		</div>
+	</div>
+<!--===================================================================================-->
+
+<!--================================== Concept ========================================-->
+    <a name="concept" id="concept"></a>
+	<div id="page">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Project Concept </a></h2>
+				<div class="entry">
+					<p>The project concept is to increase the flight range of the AR-Drone so he can fly <strong>higher</strong> and <strong>farther</strong>. <br>
+					   In order to make it, we based our communication to the AR-Drone on existing infrastructure of cellular antennas.<br>
+					   Unlike the Wi-Fi and RC communication that limiting us, celluar antennas communications provide us a <strong>range of 35 Kilometers</strong>. <br>
+					   To make this concept possibale we transformed the AR-Drone controller from Wi-Fi to 3G cellular communication.<br><br>
+					   The fact that we use a server to implement the 3G cellular communication retain us the ability to use Wi-Fi,<br>
+					   so we have several combinations of ways to communicate with the drone, such as:<br>
+					   <center><img src="images/connections.png" width="600" hight="403"></center><br><br>
+					   If we use certain communication and in-flight change into other communication,<br>
+					   there will be a few seconds of disconnecting from the server and then we get back the drone control.<br><br><br><br>
+					   <center><img src="images/security.png" width="128" hight="128"><img src="images/transfer.png" width="128" hight="128"><img src="images/game.png" width="128" hight="128"></center><br><br>
+					   <strong>This concept gives us the opportunity to use AR-Drone for various uses such as: security, transfering and new games.</strong>
+					</p>
+				</div>
+			</div>
+			<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+		</div>
+ 	</div>
+	<div id="featured-content"></div>
+<!--===================================================================================-->
+
+<!--==================================== Goals ========================================-->
+    <a name="goals" id="goals"></a>
+	<div id="page">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Project Goals </a></h2>
+				<div class="entry">
+					<p>The project goals are to transform AR-Drone into <strong>UAV - Unmanned Aerial Vehicle</strong> that can be controll by the user application.<br>
+					   The goal of Unmanned Aerial Vehicle means that we can program the plane to <strong>fly alone from one point to another</strong>, <br>
+					   we can get <strong>live video</strong> from the plane and we can get <strong>real time information</strong> about the plane flight.<br><br>
+						<center><img src="images/goals.png" width="400" hight="400"></center><br>
+					   Another goal is to build a website that can <strong>monitors every AR-Drone that is currently in the air in Real Time.</strong>,<br>
+					   That means that we can see every Ar-Drone on google map and by click a specific AR-Drone we will get all the information about this flight,<br>
+					   such as: speed,  hight and etc.	
+					</p>
+				</div>
+			</div>
+			<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+		</div>
+ 	</div>
+	<div id="featured-content"></div>
+<!--===================================================================================-->
+
+<!--===================================== Demo ========================================-->
+    <a name="demo" id="demo"></a>
+	<div id="page">
+		<div id="content">
+			<div class="post">
+				<h2 class="title"><a href="#">Project Demo </a></h2>
+				<p>The Project Demo presents us human pilot, auto pilot and real time information.</p>
+				<div class="entry">
+				</div>
+			</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+		</div>
+		<div style="clear: both;">&nbsp;</div>
+	</div>
+<!--===================================================================================-->
+
+<!--================================ Architecture =====================================-->
+<a name="architecture" id="architecture"></a>
+<div id="footer-content-wrapper2">
+	<div id="footer-content">
+		<div id="fbox4">
+			<h1>Architecture</h1>
+				<div class="entry">
+<!-- 					<p>This is that, have fun with it :) </p>	               
+ -->
+                   <br><br>
+ 	  		    </div>
+	   	  	    <div class="content"><img src="images/arcitecture.png" width="1000" height="560" alt="" /></div>
+		</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	</div>
+</div>
+<!--===================================================================================-->
+
+<!--==================================== Design =======================================-->
+<a name="Design" id="Design"></a>
+<div id="footer-content-wrapper2">
+	<div id="footer-content">
+		<div id="fbox4">
+			<h1>Design</h1>
+				<div class="entry">
+<!-- 					<p>This is that, have fun with it :) </p>
+ -->                   <br><br>
+				</div>
+	   	  	    <div class="content"><img src="images/design.png" width="1000" height="560" alt="" /></div>
+		</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	</div>
+</div>
+<!--===================================================================================-->
+
+<!--================================ Implementation ===================================-->
+<a name="Implementation" id="Implementation"></a>
+<div id="footer-content-wrapper2">
+	<div id="footer-content">
+		<div id="fbox4">
+			<h1>Implementation</h1>
+				<div class="entry">
+<!-- 					<p>This is that, have fun with it :) </p>
+ -->                   <br><br>
+				</div>
+	   	  	    <div class="content"><img src="images/Drawing1.png" width="1000" height="722" alt="" /></div>
+	   	  	    <div class="content"><img src="images/Drawing2.png" width="1000" height="1057" alt="" /></div>
+	   	  	    <div class="content"><img src="images/Drawing3.png" width="1000" height="1434" alt="" /></div>
+		</div>
+	</div>
+</div>
+<!--===================================================================================-->
+
+
+<!--===================================== Result ======================================-->
+<a name="Result" id="Result"></a>
+<div id="footer-content-wrapper2">
+	<div id="footer-content">
+		<div id="fbox4">
+			<h1>Result</h1>
+				<div class="entry">
+<!-- 					<p>This is that, have fun with it :) </p>
+ -->                   <br><br>
+				</div>
+	   	  	    <div class="content"><img src="images/Drawing4.png" width="1000" height="605" alt="" />		
+	   	  	    	                 <center><p class="button2"><a href="api/droneServerAPI/index.html" target="_blank">Drone Server API</a></p></center></div><br>
+
+	   	  	    <div class="content"><img src="images/Drawing5.png" width="1000" height="561" alt="" />
+	   	  	    	                 <center><p class="button2"><a href="api/dronePlaneApplicationAPI/index.html" target="_blank">Drone Plane Application API</a></p></center></div><br>
+
+	   	  	    <div class="content"><img src="images/Drawing6.png" width="1000" height="986" alt="" />
+	   	  	    	                 <center><p class="button2"><a href="api/droneUserApplicationAPI/index.html" target="_blank">Drone User Application API</a></p></center></div><br>
+
+	   	  	    <div class="content"><img src="images/Drawing7.png" width="1000" height="367" alt="" /></div><br>
+		</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	</div>
+</div>
+<!--===================================================================================-->
+
+
+<!--================================= Future Work =====================================-->
+    <a name="futurework" id="futurework"></a>
+	<div id="featured-content">
+		<h2 class="title"><a href="#"> Future Work </a></h2>
+		<div id="column8">
+					<p>•	Evasion from risks on auto flight such as buildings and weather.<br>
+					   •	Voice command controls the drone.<br>
+					   •	Send a voice to a speaker that we will add on the drone.<br>
+					   •	Multiple views for racing game with two players.
+					</p>
+		</div>
+		<div id="column9">
+				<img src="images/voice.png" width="128" hight="128">	
+				<img src="images/speaker.png" width="128" hight="128">	
+				<img src="images/weather.png" width="128" hight="128">	
+				&nbsp;
+				&nbsp;
+		</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	</div>
+<!--===================================================================================-->
+
+
+<!--====================================== Map ========================================-->
+<a name="map" id="map"></a>
+<div id="header-wrapper">
+	<div id="header2" class="container">
+		<h2 class="title"><a href="#"> Drone RealTime Map </a></h2>
+			<div id="column6">
+	            <div id="map_canvas"></div>
+	        </div>
+			<div id="column7" height="550">
+				<h1>Flight Information</h1><br>
+				<div id="city">City:</div> 
+				<div id="hight">Hight:</div> 
+				<div id="speed">Speed:</div> 
+                &nbsp;
+				<div id="stcordination">Start Point:</div> 
+				<div id="cucordination">Current Point:</div> 
+				<div id="decordination">End Point:</div> 
+                &nbsp;
+				<div id="distance">Distance:</div> 
+				<div id="distancemade">Distance from end point:</div> 
+                &nbsp;
+				<div id="dbattery">Drone Battery:</div> 
+				<div id="pbattery">Phone Battery:</div> 
+                &nbsp;
+				<div id="dronetype">Drone Type:</div> 
+			    <br><br>
+	  	        <p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	        </div>
+	</div>
+</div>
+<!--===================================================================================-->
+
+<!--===================================== About =======================================-->
+	<a name="aboutus" id="aboutus"></a>
+	<div id="featured-content">
+		<center><h2>About Us</h2></center>
+		<div id="column4">
+			<center>
+			<h2>Lital Motola</h2>
+			<p><img src="images/lital.png" width="256" height="256" alt="" /></p>
+ 			<p>Senior Manager <br> <strong>“What's meant to be will always find a way” </strong><br><strong> Trisha Yearwood </strong><br>
+			</center>  
+		</div>
+		<div id="column5">
+			<center>
+			<h2>Shmulik Melamed</h2>
+				<p><img src="images/shmulik.jpg" width="256" height="256" alt="" /></p>
+			<p>Co Founder and CEO of AA-UAV Corporation <br> <strong>“Everything you can imagine is real”</strong><br><strong> Pablo Picasso</strong><br>
+ 			</center> 
+		</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	</div>
+<!--===================================================================================-->
+
+<!--==================================== Contact ======================================-->
+<a name="contact" id="contact"></a>
+<div id="footer-content-wrapper">
+	<div id="footer-content">
+		<div id="fbox1">
+			<h2>Thanks</h2>
+			<ul class="style1">
+				<li class="first">Amnon Dekel</li>
+				<li>Zohar Maska</li>
+				<li>Yair Reshef</li>
+				<li>Professor Google</li>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div id="fbox2">
+			<h2>Bibliography</h2>
+			<ul class="style1">
+				<li class="first"><a href="https://projects.ardrone.org/">AR-Drone API</a></li>
+				<li><a href="http://www.arduino.cc/">Arduino API</a></li>
+				<li><a href="http://developer.android.com/index.html">Android Developer API</a></li>
+				<li><a href="https://developers.google.com/maps/">Google Maps API</a></li>
+				<li>&nbsp;</li>
+			</ul>
+		</div>
+		<div id="fbox3">
+	
+			<h2>Contact</h2>
+			<ul class="style1">
+				<li class="first">Shmulik Melamed: <a href="mailto:Smilk12@gmail.com">Smilk12@gmail.com</a> <a style="float: left" href=""><img src="images/facebook.png" width="30" hight="30"></a>
+					                                                                                        <a style="float: left" href=""><img src="images/twitter.png" width="30" hight="30"></a>
+					                                                                                        <a href=""><img src="images/linkin.png" width="30" hight="30"></a></li>
+				<li>Lital Motola: <a href="mailto:litallitalmo@gmail.com">litalmotola88@gmail.com</a> <a href="">	<img src="images/facebook.png" width="30" hight="30"></a></li>
+				<li><a href="#">&nbsp;</a></li>
+ 			</ul>
+		</div>
+		<p class="button"><a href="#home" rel="" id="anchor1" class="anchorLink">Home</a></p>
+	</div>
+</div>
+<!--===================================================================================-->
+<div id="footer">
+	<p>Copyright (c) 2013 AA-UAV.juplo.com. All rights reserved. Design by <a href="http://www.freecsstemplates.org/" rel="nofollow">Shmulik Melamed</a> And <a href="http://www.freecsstemplates.org/" rel="nofollow">Lital Motola</a>.</p>
+</div>
+<!-- end #footer -->
+</body>
+</html>

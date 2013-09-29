@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Socket_Client</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_connection_test">ConnectionTest</string>
+    <string name="title_activity_controller_screen">ControllerScreen</string>
+    <string name="title_activity_map_screen">MapScreen</string>
+    <string name="title_activity_option_screen">OptionScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_serial_verification">SerialVerification</string>
+
+</resources>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.socket_client"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="15" />
+
+    <!--============================ Map Permissions ===========================-->
+    <permission
+        android:name="com.example.socket_client.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <!--========================================================================-->
+    
+    <!--========================== Internet Permissions ========================-->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!--========================================================================-->
+    
+    <!--======================= Network State Permissions ======================-->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.example.socket_client.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!--========================================================================-->
+    
+    <application
+        android:icon="@drawable/userlogo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <!--========================= SplashScreen Activity ========================-->
+        <activity
+            android:name="com.example.socket_client.SplashScreen"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--========================================================================-->
+
+        <!--======================== ConnectionTest Activity =======================-->
+        <activity
+            android:name="com.example.socket_client.ConnectionTest"
+            android:label="@string/title_activity_connection_test"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.example.socket_client.connectiontest.ConnectionTest" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--========================================================================-->
+        
+        <!--====================== SerialVerification Activity =====================-->
+        <activity
+            android:name="com.example.socket_client.SerialVerification"
+            android:label="@string/title_activity_serial_verification" 
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.example.socket_client.serialverification.SerialVerification" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--========================================================================-->
+        
+        <!--======================= ControllerScreen Activity ======================-->
+        <activity
+            android:name="com.example.socket_client.ControllerScreen"
+            android:label="@string/title_activity_controller_screen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.example.socket_client.controllerscreen.ControllerScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--========================================================================-->
+        
+        <!--=========================== MapScreen Activity =========================-->
+        <activity
+            android:name="com.example.socket_client.MapScreen"
+            android:label="@string/title_activity_map_screen"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.DeviceDefault.Light.NoActionBar" >
+            <intent-filter>
+                <action android:name="com.example.socket_client.mapscreen.MapScreen" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <!--========================================================================-->
+        
+        <uses-library android:name="com.google.android.maps" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAIwxwI02yQyn1salaZ04mN-dCNteQooUg" />
+
+    </application>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+</manifest>

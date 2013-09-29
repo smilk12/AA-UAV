@@ -1,21 +1,19 @@
-פרויקט גמר - AA-UAV
-===================
+AA-UAV (Final Project)
+_______________________
 
-ב - CD זה מספר תיקיות עליהן נפרט כעת.
+This project contains number of folders on them we detailing now :
 
-Application - בתקייה זו נמצא את קבצי האפליקציה (APK) של הטיסן והמשתמש, אותם יש להעתיק למכשיר הסלולר ולהתקין.
-DataBase - בתיקייה זו נמצא קובץ המכיל את בסיס הנתונים אותו צריך לטעון לשרת.
-Demo Video - בתיקייה זו נמצא סרטון המדגים את התוצאה הסופית של הפרויקט.
-Final Project Code - בתיקייה זו נמצא תיקיות נוספות המכילות את הקוד מקור של כל הפרויקט, התיקיות שנמצאות בתוך תיקייה זו הן: 
-                     * ADK - קוד המקור של רכיב ה ADK
-                     * Wifly - קוד המקור של רכיב ה Wifly
-                     * Server - קוד המקור של השרת.
-                     * Web - קוד המקור של האתר אנטרנט.
-                     * Application - קוד המקור של אפליקציית המשתמש והטיסן.
+Application - The "application" directory contains the drone and user (APK) files, those files need to be copied into the cellular device and install them.
+DataBase - The "database" directory contains the database file that needs to be loaded into the server.
+Final Project Code -  The "final project code" directory contain more folders that contain the source code of the project, folders within this folder are:
+                      * ADK - component ADK source code.
+                      * Wifly - component Wifly source code.
+                      * Server - server source code.
+                      * Web - website source code.
+                      * Application - source code of the user application and Drone application.
 
-Guides - בתיקייה זו נמצא קבצי הדרכה לרכיב ה Wifly ולטיסן 
-Poster - בתיקייה זו נמצא את פוסטר הפרויקט כקובץ תמונה, PDF ו VISIO.
-Project document - בתיקייה זו נמצא את קובץ הצעת הפרויקט, FRS ו SRS כקבצי WORD.
-ServerSoftware - בתיקייה זו נמצא את קובץ ההרצה (jar) של תוכנת השרת.
-
-* בתיקייה הראשית של הפרוייקט ניתן לראות את ספר הפרויקט כקובץ WORD ו PDF.
+Guides - The "Guides" directory contains a Wifly component tutorial and Drone tutorial.
+Poster - The "Poster" directory contains the poster project as an image, PDF and VISIO.
+Project book - The "Project book" directory contains the files of the project book as pdf and word.
+Project document - The "Project document" directory contains the files to the project proposal, FRS and SRS, all files in WORD.
+ServerSoftware - The "ServerSoftware"  directory contains the executable file (jar) of the server software.
